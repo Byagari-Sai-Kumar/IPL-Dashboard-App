@@ -1,0 +1,43 @@
+.listContainer {
+  height: 100px;
+  max-height: 500px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  padding: 20px;
+}
+
+.teamCardImage {
+  height: 90%;
+  margin-right: 10px;
+}
+
+.teamCardTeamName {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .teamCardTeamName {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+.linkClass {
+  text-decoration: none;
+  height: 100px;
+  max-height: 500px;
+  width: 45%;
+  max-width: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  padding: 20px;
+}

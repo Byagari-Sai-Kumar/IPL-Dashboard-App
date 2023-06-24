@@ -1,0 +1,102 @@
+.latestMatchCardContainer {
+  width: 90%;
+  max-width: 800px;
+  background-color: #1e293b;
+  color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section1Container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.section11Container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.teamName {
+  font-size: 18px;
+}
+
+.date {
+  font-size: 15px;
+}
+
+.venue {
+  font-size: 13px;
+}
+
+.teamWonBy {
+  font-size: 12px;
+}
+
+.competingImageContainer {
+  height: 200px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.competingTeamImage {
+  height: 170px;
+  width: 140px;
+}
+
+.section2Container {
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 1px solid #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.questions {
+  font-size: 13px;
+}
+
+.answers {
+  font-size: 11px;
+}
+
+@media (min-width: 768px) {
+  .latestMatchCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .competingTeamImage {
+    height: 90%;
+  }
+  .section2Container {
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: none;
+  }
+}
